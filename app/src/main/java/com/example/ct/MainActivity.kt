@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
             .setRequiresBatteryNotLow(true)
             .setRequiresCharging(false)
             .build()
-        val notificationWorkRequest = PeriodicWorkRequestBuilder<CTNotificationWorker>(1, TimeUnit.MINUTES)
+        val notificationWorkRequest = PeriodicWorkRequestBuilder<CTNotificationWorker>(15, TimeUnit.MINUTES)
             .setConstraints(constraints)
             .addTag(TAG_WORKER)
             .build()
