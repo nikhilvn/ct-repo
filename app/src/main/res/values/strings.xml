@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ct</string>
+    <string name="notifyGoalNearlyComplete_title">You are nearly there!</string>
+
+    <string name="permission_rational_dialog_title">Activity Recognition Permission Needed</string>
+    <string name="permission_rational_dialog_message">To get information about your activity, you need to give Activity Recognition permission to Pet Buddy.</string>
+    <string name="permission_rational_dialog_positive_button_text">Request a permission</string>
+    <string name="permission_rational_dialog_negative_button_text">No thanks</string>
+</resources>
